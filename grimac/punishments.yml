@@ -1,0 +1,119 @@
+Punishments:
+  Hareket:
+    remove-violations-after: 140
+    checks:
+      - "Simulation"
+    commands:
+      - "100:10 [alert]"
+      - "50:10 [webhook]"
+      - "400:0 kick %player% &8[&#800000ɢ&#980a00ᴀ&#a91400ʀ&#ba1e00ᴅ&#cc2700ɪ&#dd3100ʏ&#ee3b00ᴀ&#ff4500ɴ&8] &fYasadisi hareket."
+  Savrulma:
+    remove-violations-after: 500
+    checks:
+      - "Knockback"
+      - "Explosion"
+    commands:
+      - "5:3 [alert]"
+      - "50:0 tempban %player% 3d &8[&#800000ɢ&#980a00ᴀ&#a91400ʀ&#ba1e00ᴅ&#cc2700ɪ&#dd3100ʏ&#ee3b00ᴀ&#ff4500ɴ&8] &fAnti-KB."
+  Paket:
+    remove-violations-after: 300
+    checks:
+      - "Post"
+      - "BadPackets"
+    commands:
+      - "5:2 [alert]"
+      - "100:0 kick %player% &8[&#800000ɢ&#980a00ᴀ&#a91400ʀ&#ba1e00ᴅ&#cc2700ɪ&#dd3100ʏ&#ee3b00ᴀ&#ff4500ɴ&8] &fBozuk paket."
+  Crash:
+    remove-violations-after: 200
+    checks:
+      - "Crash"
+    commands:
+      - "10:5 [alert]"
+      - "60:0 tempban %player% 3d &8[&#800000ɢ&#980a00ᴀ&#a91400ʀ&#ba1e00ᴅ&#cc2700ɪ&#dd3100ʏ&#ee3b00ᴀ&#ff4500ɴ&8] &fCrash."
+  Menzil:
+    remove-violations-after: 300
+    checks:
+      - "Reach"
+    commands:
+      - "2:3 [alert]"
+      - "30:0 tempban %player% 3d &8[&#800000ɢ&#980a00ᴀ&#a91400ʀ&#ba1e00ᴅ&#cc2700ɪ&#dd3100ʏ&#ee3b00ᴀ&#ff4500ɴ&8] &fReach."
+  Savas:
+    remove-violations-after: 500
+    checks:
+      - "Killaura"
+      - "Aim"
+    commands:
+      - "2:1 [alert]"
+      - "10:0 tempban %player% 3d &8[&#800000ɢ&#980a00ᴀ&#a91400ʀ&#ba1e00ᴅ&#cc2700ɪ&#dd3100ʏ&#ee3b00ᴀ&#ff4500ɴ&8] &fKillaura."
+  Hitbox:
+    remove-violations-after: 300
+    checks:
+      - "Hitboxes"
+    commands:
+      - "4:2 [alert]"
+      - "20:0 tempban %player% 3d &8[&#800000ɢ&#980a00ᴀ&#a91400ʀ&#ba1e00ᴅ&#cc2700ɪ&#dd3100ʏ&#ee3b00ᴀ&#ff4500ɴ&8] &fHitbox."
+  NoSlow:
+    remove-violations-after: 300
+    checks:
+      - "NoSlow"
+    commands:
+      - "2:4 [alert]"
+      - "40:0 kick %player% &8[&#800000ɢ&#980a00ᴀ&#a91400ʀ&#ba1e00ᴅ&#cc2700ɪ&#dd3100ʏ&#ee3b00ᴀ&#ff4500ɴ&8] &fNoSlow."
+  Diger:
+    remove-violations-after: 300
+    checks:
+      - "EntityControl"
+      - "MultiActions"
+      - "Place"
+      - "!RotationPlace"
+    commands:
+      - "10:5 [alert]"
+      - "100:0 tempban %player% 3d &8[&#800000ɢ&#980a00ᴀ&#a91400ʀ&#ba1e00ᴅ&#cc2700ɪ&#dd3100ʏ&#ee3b00ᴀ&#ff4500ɴ&8] &fYasadisi islem."
+  Timer:
+    remove-violations-after: 500
+    checks:
+      - "Timer"
+    commands:
+      - "10:5 [alert]"
+      - "50:0 kick %player% &8[&#800000ɢ&#980a00ᴀ&#a91400ʀ&#ba1e00ᴅ&#cc2700ɪ&#dd3100ʏ&#ee3b00ᴀ&#ff4500ɴ&8] &fTimer."
+  NoFall:
+    remove-violations-after: 300
+    checks:
+      - "NoFall"
+    commands:
+      - "15:5 [alert]"
+      - "150:0 tempban %player% 3d &8[&#800000ɢ&#980a00ᴀ&#a91400ʀ&#ba1e00ᴅ&#cc2700ɪ&#dd3100ʏ&#ee3b00ᴀ&#ff4500ɴ&8] &fNoFall."
+  GroundSpoof:
+    remove-violations-after: 300
+    checks:
+      - "GroundSpoof"
+    commands:
+      - "10:5 [alert]"
+      - "150:0 tempban %player% 3d &8[&#800000ɢ&#980a00ᴀ&#a91400ʀ&#ba1e00ᴅ&#cc2700ɪ&#dd3100ʏ&#ee3b00ᴀ&#ff4500ɴ&8] &fGroundSpoof."
+  Baritone:
+    remove-violations-after: 300
+    checks:
+      - "Baritone"
+    commands:
+      - "10:5 [alert]"
+      - "200:0 tempban %player% 3d &8[&#800000ɢ&#980a00ᴀ&#a91400ʀ&#ba1e00ᴅ&#cc2700ɪ&#dd3100ʏ&#ee3b00ᴀ&#ff4500ɴ&8] &fBaritone."
+  FastBreak:
+    remove-violations-after: 300
+    checks:
+      - "FastBreak"
+    commands:
+      - "10:5 [alert]"
+      - "30:0 tempban %player% 3d &8[&#800000ɢ&#980a00ᴀ&#a91400ʀ&#ba1e00ᴅ&#cc2700ɪ&#dd3100ʏ&#ee3b00ᴀ&#ff4500ɴ&8] &fFastBreak."
+  Transaction:
+    remove-violations-after: 500
+    checks:
+      - "TransactionOrder"
+    commands:
+      - "10:5 [alert]"
+      - "50:0 tempban %player% 3d &8[&#800000ɢ&#980a00ᴀ&#a91400ʀ&#ba1e00ᴅ&#cc2700ɪ&#dd3100ʏ&#ee3b00ᴀ&#ff4500ɴ&8] &fTransaction."
+  Autoclicker:
+    remove-violations-after: 80
+    checks:
+      - "Autoclicker"
+    commands:
+      - "420:0 [alert]"

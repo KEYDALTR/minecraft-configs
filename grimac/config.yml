@@ -1,0 +1,125 @@
+# Gardiyan - KEYDAL Network
+# keydal.net
+
+alerts:
+    print-to-console: true
+    proxy:
+        send: false
+        receive: false
+
+verbose:
+    print-to-console: false
+
+check-for-updates: false
+
+client-brand:
+    ignored-clients:
+        - "^vanilla$"
+        - "^fabric$"
+        - "^lunarclient:v\d+\.\d+\.\d+-\d{4}$"
+        - "^Feather Fabric$"
+        - "^labymod$"
+    disconnect-blacklisted-forge-versions: true
+
+spectators:
+    hide-regardless: false
+    allowed-worlds:
+        - ""
+
+max-transaction-time: 60
+disable-pong-cancelling: false
+cancel-duplicate-packet: true
+ignore-duplicate-packet-rotation: false
+
+Simulation:
+    setback-decay-multiplier: 0.999
+    threshold: 0.001
+    immediate-setback-threshold: 0.1
+    max-advantage: 1
+    max-ceiling: 4
+    setback-violation-threshold: 1
+
+Phase:
+    setbackvl: 1
+    decay: 0.005
+
+AirLiquidPlace:
+    cancelvl: 0
+
+FabricatedPlace:
+    cancelvl: 5
+
+FarPlace:
+    cancelvl: 5
+
+PositionPlace:
+    cancelvl: 5
+
+RotationPlace:
+    cancelvl: 5
+
+NoSlow:
+    threshold: 0.001
+    setbackvl: 5
+    decay: 0.05
+
+Knockback:
+    setback-decay-multiplier: 0.999
+    threshold: 0.001
+    immediate-setback-threshold: 0.1
+    max-advantage: 1
+    max-ceiling: 4
+
+Explosion:
+    threshold: 0.001
+    setbackvl: 3
+
+TimerA:
+    setbackvl: 10
+    drift: 120
+
+TimerLimit:
+    ping-abuse-limit-threshold: 1000
+
+NegativeTimer:
+    drift: 1200
+
+VehicleTimer:
+    setbackvl: 10
+
+PacketOrderI:
+    exempt-placing-while-digging: false
+
+Reach:
+    threshold: 0.0004
+    block-impossible-hits: true
+    enable-post-packet: false
+
+exploit:
+    allow-sprint-jumping-when-using-elytra: true
+    allow-building-on-ghostblocks: true
+    distance-to-check-if-ghostblocks: 2
+
+debug-pipeline-on-join: false
+experimental-checks: false
+reset-item-usage-on-item-update: true
+reset-item-usage-on-attack: true
+reset-item-usage-on-slot-change: true
+packet-spam-threshold: 100
+debug-packet-cancel: false
+max-ping-out-of-flying: 1000
+max-ping-firework-boost: 1000
+
+history:
+    enabled: true
+    entries-per-page: 15
+    server-name: KEYDAL
+    database:
+        type: SQLITE
+        host: localhost
+        port: 3306
+        database: gardiyan
+        username: root
+        password: ""
+
+config-version: 9

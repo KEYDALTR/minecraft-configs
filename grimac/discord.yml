@@ -1,0 +1,11 @@
+enabled: false
+webhook: ""
+embed-title: "**Gardiyan**"
+embed-color: "#ff4500"
+violation-content:
+  - "**Oyuncu**: %player%"
+  - "**Kontrol**: %check%"
+  - "**VL**: %violations%"
+  - "**Surum**: %version% [%brand%]"
+  - "**Ping**: %ping%ms"
+  - "**TPS**: %tps%"
